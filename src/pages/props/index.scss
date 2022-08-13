@@ -1,0 +1,47 @@
+.page-props{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    min-height: 100vh;
+
+    background-color: #F5F6FA;
+    
+    *{
+        border: 1px solid green;
+    }
+    
+    .box-inputs{
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+
+        padding: 25px;
+
+        width: 550px;
+        height: 250px; 
+        
+        background-color: #fff;
+    }
+
+    .box-inputs input{
+        width: 240px;
+        height: 35px;
+
+        padding: 8px;
+
+        resize: none;
+    }
+
+    textarea{
+        width: 240px;
+        height: 60px;
+
+        padding: 8px;
+        
+        resize: none;
+    }
+
+}

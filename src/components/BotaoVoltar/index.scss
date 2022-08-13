@@ -1,0 +1,17 @@
+.comp-botao-interacao{
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100px;
+        height: 32px;
+
+        color: white;
+        font-family: 'poppins-medium';
+        font-size: 1em;
+
+        background-color:#0084FF ;
+        cursor: pointer;
+    }
+}
