@@ -9,20 +9,57 @@
 
     background-color: #F5F6FA;
     
-    
+    *{
+        border: 1px solid green;
+    }
+
+    .image{
+        width: 500px;
+        height: 130px;
+        margin-right: 25px;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    textarea{
+        width: 260px;
+        height: 60px;
+
+        padding: 8px;
+
+        font-family: 'poppins-medium';
+
+        outline: none;
+        border: none;
+
+        resize: none;
+    }
+    textarea::placeholder{
+        color: #BFBFBF;
+    }
+
     .box-inputs{
+        width: 550px;
+        height: 230px; 
+        
         display: grid;
         grid-template-columns: auto auto;
         align-items: center;
+        justify-content: space-evenly;
 
-        padding: 25px;
+        padding: 25px 0px ;
 
-        width: 550px;
-        height: 230px; 
+    }
+
+    .box-inputs > * {
+        box-shadow: 0px 0px 2px 1px rgba(173, 173, 173, 0.25);
     }
 
     .box-inputs input{
-        width: 240px;
+        width: 260px;
         height: 35px;
 
         padding: 8px;
@@ -38,16 +75,47 @@
         color: #BFBFBF;
     }
 
-    textarea{
-        width: 240px;
-        height: 60px;
+    .box-container{
+        width: 550px;
+        min-height: 250px;
 
-        padding: 8px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-direction: column;
 
-        outline: none;
-        border: none;
+        padding: 25px;
+        margin-bottom: 25px;
 
-        resize: none;
+        background-color: white;
+        
     }
 
+    .titulo{
+        font-family: 'poppins-medium';
+        font-size: 1.4em;
+    }
+
+    .content{
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    
+    .text{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+
+        margin-right: 25px;
+        font-family: 'poppins-medium';
+        color: #888888; 
+    }
+
+    .reverse{
+        flex-direction: row-reverse;
+    }
 }

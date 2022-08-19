@@ -10,17 +10,20 @@
     background-color: #F5F6FA;
 
     .card-container{
-        width: 600px;
+        width: 670px;
         min-height: 400px;
     
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: flex-start;
 
+        flex-wrap: wrap;
+    
         padding: 25px;
+    }
 
-        box-shadow: 0px 0px 10px 5px #ebebeb;
-        background-color: #fff;
+    .card-container > *{
+        margin-bottom: 25px;
     }
 
 }

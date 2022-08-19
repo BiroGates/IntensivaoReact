@@ -7,7 +7,7 @@ export default function BotaoVoltar() {
   const navigate = useNavigate();
   
   return (
-    <main className='comp-botao-interacao'>
+    <main className='comp-botao-voltar'>
       <div onClick={() => navigate('/')}>Voltar</div>
     </main>
   )
