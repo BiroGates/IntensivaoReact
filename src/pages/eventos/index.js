@@ -1,5 +1,7 @@
 // React Stuff
 import React, { useState } from 'react'
+
+// Hooks
 import { useLocation } from 'react-router-dom';
 
 // Scss
@@ -29,7 +31,7 @@ export default function Eventos() {
             <div className='tickboxes'>
                 <div>
                     <label>Opção 1</label>
-                    <input type="radio" />
+                    <input type="radio" onClick={() => alert('Clicou')}/>
                 </div>
                 <div>
                     <label>Opção 2</label>

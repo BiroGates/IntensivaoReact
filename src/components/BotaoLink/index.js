@@ -1,8 +1,10 @@
 import React from 'react';
+
+// Scss
 import './index.scss';
 import '../../common/common.css';
-import { useNavigate } from 'react-router-dom';
 
+import { useNavigate } from 'react-router-dom';
 
 
 export default function BotaoLink({titulo, caminho}) {

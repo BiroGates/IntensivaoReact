@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/home';
 import Eventos from './pages/eventos';
 import Componentes from './pages/componentes';
+import Componentesii from './pages/componentesii';
 import Props from './pages/props';
 
 export default function Paths() {
@@ -15,6 +16,7 @@ export default function Paths() {
             <Route exact path='/' element={<Home/>}/>
             <Route exact path='/eventos' element={<Eventos/>}/>
             <Route exact path='/componentes' element={<Componentes/>}/>
+            <Route exact path='/componentesii' element={<Componentesii/>}/>
             <Route exact path='/props' element={<Props/>}/>
         </Routes>
     </BrowserRouter>

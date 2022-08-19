@@ -9,9 +9,6 @@
 
     background-color: #F5F6FA;
     
-    *{
-        border: 1px solid green;
-    }
     
     .box-inputs{
         display: grid;
@@ -21,9 +18,7 @@
         padding: 25px;
 
         width: 550px;
-        height: 250px; 
-        
-        background-color: #fff;
+        height: 230px; 
     }
 
     .box-inputs input{
@@ -32,7 +27,15 @@
 
         padding: 8px;
 
-        resize: none;
+        background-color: #fff;
+
+        border: none;
+        outline: none;
+    }
+
+    .box-inputs input::placeholder{
+        font-family: 'poppins-medium';
+        color: #BFBFBF;
     }
 
     textarea{
@@ -40,7 +43,10 @@
         height: 60px;
 
         padding: 8px;
-        
+
+        outline: none;
+        border: none;
+
         resize: none;
     }
 

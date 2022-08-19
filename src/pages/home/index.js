@@ -10,7 +10,8 @@ export default function Home() {
         <div className='box-container'>
             <BotaoLink caminho='eventos' titulo='Estudando ReactJS | Eventos' />
             <BotaoLink caminho='componentes' titulo='Estudando ReactJS | Componentes' />
-            <BotaoLink caminho='' titulo='Estudando ReactJS | Variável de Estado' />
+            <BotaoLink caminho='componentesii' titulo='Estudando ReactJS | Componentes II' />
+            <BotaoLink caminho='props' titulo='Estudando ReactJS | Props' />
             <BotaoLink caminho='' titulo='Estudando ReactJS | Renderização' />
             <BotaoLink caminho='' titulo='Estudando ReactJS | Componentes' />
         </div>
